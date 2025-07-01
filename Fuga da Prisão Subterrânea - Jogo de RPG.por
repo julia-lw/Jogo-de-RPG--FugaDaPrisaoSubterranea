@@ -29,7 +29,12 @@ programa {
             caso 2:
                 escreva("Você escolheu o buraco no chão. Precisas de algo para o alargar. Encontras três itens na cela.\n(1) Colher🥄.\n(2) Pedaço do pé da cama.🛏️\n(3) Lixa🏏.\nQual item você escolhe? ")
                 leia(item)
-
+                se(item==1){
+                  escreva("Você escolheu um item que não serve para abrir a passagem.\nTente de novo.")
+                }
+                se(item==2){
+                  escreva("Você escolheu um item que não serve para abrir a passagem.\nTente de novo.")
+                }
                 se(item==3){
                     escreva("Você escolheu uma lixa, alargando o buraco e acessando uma pequena saída.\nVocê acessa uma nova área: os corredores do térreo. Prepare-se para correr.\n")
                     escreva("Pressione enter para continuar \n")
